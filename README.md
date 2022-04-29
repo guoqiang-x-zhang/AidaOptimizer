@@ -4,7 +4,7 @@ Aida optimiser is designed to effectively train DNN models. As an extension of A
 
 **_NOTE:_** The adaptive stepsizes in Adam are <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{\sqrt{v_t}%2B\epsilon}">
 
-[//]: # ( <img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}"> )
+[//]: # ( <img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}" width="20"/> )
 
 
 
