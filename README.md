@@ -2,11 +2,12 @@
 ## 1) Brief description of Aida
 Aida optimiser is designed to effectively train DNN models. As an extension of AdaBelief, Aida exploits the layerwise gradient statistics via simple layerwise vector projections per iteration.  One property of Aida is that the histogram of the adaptive stepsizes tends to much more compact (or narrow) than those of AdaBelief and Adam when training a DNN model. See __G. Zhang, K. Niwa, and W. B. Kleijn, "On Exploiting Layerwise Gradient Statistics for Effective Training of Deep Neural Networks", arXiv:2203.13273v3, March, 2022.__ [[paper link]](https://arxiv.org/abs/2203.13273) 
 
-## 2) Impact of different optimizers on adaptive stepsizes 
+## 2) Illustration of the impact of different optimizers on adaptive stepsizes 
 
 <img src="https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png" alt="drawing" width="500"/>
-
-fsda fsadf sadf safd 
+ 
+ Layerwise average stepsizes of the adaptive stepsizes for the top 10 neural layers when training VGG11 over CIFAR10 for 200 epochs.
+The jumps at 100 and 160 epoch in the curves are due to the change of the common stepsize. 
 
 
 <img src="https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_std.png" alt="drawing" width="500"/>
