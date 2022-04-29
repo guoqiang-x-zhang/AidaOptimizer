@@ -4,8 +4,8 @@ Aida optimiser is designed to effectively train DNN models. As an extension of A
 
 ## 2) Impact of different optimizers on adaptive stepsizes 
 
-![safd adsfj sal;dj;l sadfa](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png)
-![test](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_std.png)
+![some sente4nces ](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png)
+![some sente4nces ](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_std.png)
 
 ## 3) Introducing layerwise stepsizes into Adam and AdaBelief
 As a side product, we also propose LAdaBelief and LAdam as extensions of AdaBelief and Adam. Considering LAdaBelief, it is deisgned by introducing layerwsie adaptive stepsizes into AdaBelief by pre-processing. By doing so, LAdaBelief only needs to store one parameter per neural layer for computing the layerwisee adaptive stepsize while AdaBelief needs to store the same number of parameters as the DNN model. Similarly, LAdam is designed in a similar manner as LAdaBelief. It is found that the two new methods produce comparable performance as Adam and AdaBelief for a number of typical DNN tasks (see the experiemtal part of the above paper).  
