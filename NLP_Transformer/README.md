@@ -1,3 +1,5 @@
+# Reference
+
 **The NLP_Transformer is from https://github.com/jadore801120/attention-is-all-you-need-pytorch by Yu-Hsiang Huang. On the train.py is modified to be able to test two optimizers: AdaBelief and Aida.**
 
 
