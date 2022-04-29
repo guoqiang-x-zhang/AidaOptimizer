@@ -4,8 +4,7 @@ Aida optimiser is designed to effectively train DNN models. As an extension of A
 
 ## 2) Impact of different optimizers on adaptive stepsizes 
 
-![some sente4nces ](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png =x450)
-
+<img src="https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png" alt="drawing" width="200"/>
 
 fsda fsadf sadf safd 
 
