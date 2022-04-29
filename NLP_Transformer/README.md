@@ -26,7 +26,7 @@ python preprocess.py -lang_src de -lang_trg en -share_vocab -save_data m30k_deen
 
 ### 1) Train the model using different optimizers
 ```bash
-execute run.sh
+./run.sh
 ```
 
 ### 2) Test the model
