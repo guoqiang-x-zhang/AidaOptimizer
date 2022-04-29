@@ -22,14 +22,14 @@ python -m spacy download de
 python preprocess.py -lang_src de -lang_trg en -share_vocab -save_data m30k_deen_shr.pkl
 ```
 
-## 
+## Optimizer Evaluation
 
-## Train the model
+### 1) Train the model using different optimizers
 ```bash
 execute run.sh
 ```
 
-## Test the model
+### 2) Test the model
 ```bash
 python translate.py -data_pkl m30k_deen_shr.pkl -model trained.chkpt -output prediction.txt
 ```
