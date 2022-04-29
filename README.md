@@ -13,8 +13,7 @@ Aida optimiser is designed to effectively train DNN models. As an extension of A
 <img src="https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png" alt="drawing" width="500"/>
  
 Layerwise average stepsizes of the adaptive stepsizes for the top 10 neural layers when training VGG11 over CIFAR10 for 200 epochs.
-The jumps at 100 and 160 epoch in the curves are due to the change of the common stepsize. 
-
+The jumps at 100 and 160 epoch in the curves are due to the change of the common stepsize. Adam+ is obtained by replacing <img src="https://render.githubusercontent.com/render/math?math=(m_t-g_t)^2"> in AdaBelief with  <img src="https://render.githubusercontent.com/render/math?math=g_t^2">, where the parameter <img src="https://render.githubusercontent.com/render/math?math=\epsilon"> is placed differently from the original update expressions of Adam. 
 
 <img src="https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_std.png" alt="drawing" width="500"/>
  Layerwise standard deviations of the adaptive stepsizes for the top 10 neural layers when training VGG11 over CIFAR10 for 200 epochs.
