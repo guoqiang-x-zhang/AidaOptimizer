@@ -4,7 +4,7 @@ Aida optimiser is designed to effectively train DNN models. As an extension of A
 
 ## 1) Impact of different optimizers on adaptive stepsizes 
 
-![test](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png)
+![safd adsfj sal;dj;l sadfa](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_mean.png)
 ![test](https://github.com/guoqiang-x-zhang/AidaOptimizer/blob/main/imgs/Aida_3stage_overall_std.png)
 
 ## 2) Introducing layerwise stepsizes into Adam and AdaBelief
