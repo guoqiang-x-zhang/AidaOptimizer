@@ -1,6 +1,6 @@
 ## Code Reference
 
-**The NLP_Transformer is from https://github.com/jadore801120/attention-is-all-you-need-pytorch by Yu-Hsiang Huang. The train.py is modified to be able to evaluate two additional optimizers: AdaBelief and Aida
+The NLP_Transformer is from https://github.com/jadore801120/attention-is-all-you-need-pytorch by Yu-Hsiang Huang. The train.py is modified to be able to evaluate two additional optimizers: AdaBelief and Aida
 
 
 
